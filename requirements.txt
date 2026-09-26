@@ -1,0 +1,14 @@
+# Machine learning
+torch
+torchvision
+torchmetrics
+
+# Data handling
+numpy
+pandas
+
+# Visualization
+matplotlib
+
+# Image loading / preprocessing
+Pillow
