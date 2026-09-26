@@ -87,6 +87,8 @@ I did not want to evaluate the models based only on a single accuracy number. Du
 
 This made it easier to compare the models beyond their headline accuracy and inspect where classification errors were occurring.
 
+![Misclassified examples](assets/misclassified.png)
+
 ## Application architecture
 
 The trained classifier was integrated into a simple web application.
