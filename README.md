@@ -173,3 +173,11 @@ The project was developed by five students:
 ## Note
 
 This repository contains a university machine learning project and is intended for educational and experimental purposes. The model was trained and evaluated on the selected dataset and should **not** be interpreted as a clinically validated diagnostic system.
+
+---
+
+## How to start:
+1. Clone the repository to your local machine;
+2. install all dependencies for Node.js and Vue.js with command `npm i`;
+3. Open yout local host 8080;
+4. Upload a x-ray image and see the result.
