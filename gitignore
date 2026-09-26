@@ -1,0 +1,48 @@
+# Node.js dependencies
+Backend/node_modules/
+Frontend/frontend/node_modules/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Frontend build output
+Frontend/frontend/dist/
+Frontend/frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Large/local datasets
+dataset/
+datasets/
+data/
+
+# Temporary files
+*.tmp
+*.temp
