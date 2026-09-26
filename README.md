@@ -41,8 +41,6 @@ We started with EfficientNet-B4 and gradually changed the training strategy afte
 
 The experiments showed a large difference between using a mostly frozen pretrained network and fully fine-tuning a model on the MRI dataset.
 
-![Model accuracy comparison](assets/model_accuracy_comparison.png)
-
 | Experiment | Reported accuracy |
 |---|---:|
 | EfficientNet-B4, frozen parameters | 67.16% |
@@ -86,6 +84,12 @@ I did not want to evaluate the models based only on a single accuracy number. Du
 - examples of the most frequently confused images
 
 This made it easier to compare the models beyond their headline accuracy and inspect where classification errors were occurring.
+
+![DenseNet Metrics](assets/info.png)
+
+![ROC curve](assets/roc_curve.png)
+
+![Confusion matrix](assets/confusion_matrix.png)
 
 ![Misclassified examples](assets/misclassified.png)
 
